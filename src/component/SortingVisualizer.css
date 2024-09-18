@@ -1,0 +1,38 @@
+/* SortingVisualizer.css */
+.sorting-visualizer {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height of viewport */
+    justify-content: space-between; /* Space out children: controls at the top and array-container at the bottom */
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .array-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 400px; /* Fixed height for visualization */
+    width: 100%;
+    border: 1px solid #ddd; /* Optional border for better visibility */
+  }
+  
+  .array-bar {
+    display: inline-block;
+    margin: 0 2px;
+    background-color: #4CAF50;
+    position: relative;
+  }
+  
+  .array-bar-label {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 2px;
+  }
+  
